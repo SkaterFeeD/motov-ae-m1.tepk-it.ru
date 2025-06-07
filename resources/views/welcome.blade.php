@@ -1,3 +1,7 @@
+<!-- extends('layouts.layout') -->
+
+<!-- section('title', 'Домашняя страница') -->
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
