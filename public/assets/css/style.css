@@ -1,4 +1,24 @@
+@font-face {
+    font-family: 'Constantia';
+    src: url('fonts/Gabriola.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
-    padding: 0;
-    margin: 0;
+    font-family: Gabriola, sans-serif;
+}
+.additionBackground {
+    background-color: #BBD9B2 !important;
+}
+.btn {
+    background-color: #2D6033 !important;
+    color: white !important;
+    border-radius: 30px;
+    width: 200px;
+}
+.table-color:first-child {
+    background-color: #2D6033;
+}
+.table-color:last-child {
+    background-color: #BBD9B2;
 }
